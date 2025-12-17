@@ -186,7 +186,7 @@ def generation_node(state: GraphState) -> GraphState:
     chain = prompt | get_llm() | StrOutputParser()
     generation = chain.invoke({"context": context, "question": question})
     
-    print(f"✨ Generated response")
+    print(f"✨ Generated response: {generation}")
     
     return {"generation": generation}
 

@@ -14,3 +14,7 @@ streamlit
 pytest
 pytest-mock
 cohere
+fastapi
+uvicorn[standard]
+pydantic
+httpx

@@ -1,0 +1,16 @@
+langchain
+langchain-openai
+langchain-qdrant
+langchain-text-splitters
+langchain-cohere
+langchain-core
+langgraph
+langsmith
+qdrant-client
+pymupdf
+python-dotenv
+requests
+streamlit
+pytest
+pytest-mock
+cohere
